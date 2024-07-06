@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./main/style.css" />
+    </head>
+    <body>
+        <h1 tabindex="-1">Monster Shuffle</h1>
+        <div class="app"></div>
+
+        <div class="liveRegion" aria-live="polite">
+            <p class="count"></p>
+            <p class="notificationText"></p>
+            <button class="restart-button">Start Again</button>
+        </div>
+        <p id="announcement" class="visuallyHidden" aria-live="polite"></p>
+        <script src="main/index.js" type="module"></script>
+    </body>
+</html>
